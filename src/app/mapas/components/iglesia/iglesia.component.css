@@ -1,0 +1,38 @@
+.invitacion{
+    color: #a58b1a;
+    /* background-color: #bba1a1; */
+}
+
+
+.nombres{
+    font-family: 'Alex Brush', cursive;
+}
+p{
+    font-family: 'Bodoni Moda', serif;
+}
+
+h4{
+    font-family: 'Bodoni Moda', serif;
+}
+h5{
+    font-family: 'Bodoni Moda', serif;
+}
+h6{
+    font-family: 'Bodoni Moda', serif;
+}
+img{
+    max-height: 700px;
+}
+span{
+    font-family: 'Bodoni Moda', serif;
+}
+
+a{
+    color: #002322;
+}
+
+.round{
+    border-radius: 25px;
+    margin: 10px;
+    
+}
