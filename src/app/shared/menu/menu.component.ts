@@ -25,7 +25,7 @@ export class MenuComponent  {
     },
     {
       ruta: '/mapas/inicio',
-      nombre: 'Inicio'
+      nombre: 'Invitacion'
     },
   ];
 
