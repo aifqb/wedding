@@ -21,7 +21,7 @@ h6{
     font-family: 'Bodoni Moda', serif;
 }
 img{
-    max-height: 700px;
+    max-height: 500px;
 }
 span{
     font-family: 'Bodoni Moda', serif;
@@ -29,10 +29,4 @@ span{
 
 a{
     color: #002322;
-}
-
-.round{
-    border-radius: 25px;
-    margin: 10px;
-    
 }
