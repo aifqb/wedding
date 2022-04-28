@@ -21,7 +21,7 @@ export class MenuComponent  {
     },
     {
       ruta: '/mapas/local',
-      nombre: 'Local'
+      nombre: 'Salon'
     },
     {
       ruta: '/mapas/inicio',

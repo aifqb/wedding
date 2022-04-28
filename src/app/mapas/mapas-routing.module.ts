@@ -12,7 +12,7 @@ const routes: Routes = [
     component: HomeComponent,
     children: [
       {path: 'iglesia', component: IglesiaComponent},
-      {path: 'local', component: LocalComponent},
+      {path: 'salon', component: LocalComponent},
       {path: 'invitacion', component: InicioComponent},
       {path: '**', redirectTo: 'invitacion'},
     ]
