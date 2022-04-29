@@ -7,6 +7,10 @@ import { LocalComponent } from './pages/local/local.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NaviComponent } from './pages/navi/navi.component';
+import { CabeceraComponent } from './shared/cabecera/cabecera.component';
+import { PadresComponent } from './shared/padres/padres.component';
+import { InformacionComponent } from './shared/informacion/informacion.component';
+import { ItinerarioComponent } from './shared/itinerario/itinerario.component';
 
 
 @NgModule({
@@ -15,7 +19,11 @@ import { NaviComponent } from './pages/navi/navi.component';
     LocalComponent,
     InicioComponent,
     HomeComponent,
-    NaviComponent
+    NaviComponent,
+    CabeceraComponent,
+    PadresComponent,
+    InformacionComponent,
+    ItinerarioComponent
   ],
   imports: [
     CommonModule,
