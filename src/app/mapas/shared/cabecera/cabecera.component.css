@@ -5,26 +5,26 @@
 
 
 .nombres{
-    font-family: 'Alex Brush', cursive;
+    font-family: 'WindSong', cursive;
 }
 p{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 h4{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Playfair Display', serif;
 }
 h5{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Playfair Display', serif;
 }
 h6{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Playfair Display', serif;
 }
 img{
     max-height: 500px;
 }
-span{
-    font-family: 'Bodoni Moda', serif;
+br span{
+    font-family: 'Playfair Display', serif;
 }
 
 a{

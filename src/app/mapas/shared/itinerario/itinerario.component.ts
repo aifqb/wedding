@@ -18,7 +18,7 @@ export class ItinerarioComponent {
     {
       id: 1,
       hora: '11:00',
-      actividad: 'Iglesia'
+      actividad: 'Ceremonia religiosa'
     },
     {
       id: 2,

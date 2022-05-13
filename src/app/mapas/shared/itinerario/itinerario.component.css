@@ -8,23 +8,31 @@
     font-family: 'Alex Brush', cursive;
 }
 p{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 h4{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Playfair Display', serif;
 }
 h5{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Playfair Display', serif;
 }
 h6{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Playfair Display', serif;
 }
 img{
     max-height: 500px;
 }
 span{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Playfair Display', serif;
+}
+
+th{
+    font-family: 'Playfair Display', serif;
+}
+
+td{
+    font-family: 'Playfair Display', serif;
 }
 
 a{
@@ -36,4 +44,3 @@ a{
     margin: 10px;
     
 }
-
