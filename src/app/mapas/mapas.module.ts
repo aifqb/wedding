@@ -11,6 +11,7 @@ import { CabeceraComponent } from './shared/cabecera/cabecera.component';
 import { PadresComponent } from './shared/padres/padres.component';
 import { InformacionComponent } from './shared/informacion/informacion.component';
 import { ItinerarioComponent } from './shared/itinerario/itinerario.component';
+import { ButonwpComponent } from './shared/butonwp/butonwp.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ItinerarioComponent } from './shared/itinerario/itinerario.component';
     CabeceraComponent,
     PadresComponent,
     InformacionComponent,
-    ItinerarioComponent
+    ItinerarioComponent,
+    ButonwpComponent
   ],
   imports: [
     CommonModule,
