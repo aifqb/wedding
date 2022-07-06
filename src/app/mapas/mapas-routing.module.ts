@@ -7,12 +7,22 @@ import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
 
+  // {
+  //   path:'',
+  //   component: HomeComponent,
+  //   children: [
+  //     {path: 'iglesia', component: IglesiaComponent},
+  //     {path: 'salon', component: LocalComponent},
+  //     {path: 'invitacion', component: InicioComponent},
+  //     {path: '**', redirectTo: 'invitacion'},
+  //   ]
+  // }
   {
     path:'',
     component: HomeComponent,
     children: [
-      {path: 'iglesia', component: IglesiaComponent},
-      {path: 'salon', component: LocalComponent},
+      {path: 'iglesia', component: InicioComponent},
+      {path: 'salon', component: InicioComponent},
       {path: 'invitacion', component: InicioComponent},
       {path: '**', redirectTo: 'invitacion'},
     ]
