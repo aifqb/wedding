@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'miguel',
-    loadChildren: () => import('./mapas/mapas.module').then( m =>m.MapasModule)
+    loadChildren: () => import('./miki/miki.module').then( m =>m.MikiModule)
   },
   {
     path:'**',
