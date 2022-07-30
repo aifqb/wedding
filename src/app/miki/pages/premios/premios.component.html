@@ -1,1 +1,23 @@
-<p>premios works!</p>
+
+<div class="cuerpo">
+
+
+    <h2>PREMIOS</h2>
+
+
+    <div *ngFor="let premio of premios" class="premiocard shadow p-4 mb-3">
+        
+        <h6 class="text-uppercase">
+            {{premio.titulo}}
+        </h6>
+        <hr>
+        <p class="m-1">
+            {{premio.detalle}}
+        </p>
+        
+    </div>
+    
+</div>
+   
+
+

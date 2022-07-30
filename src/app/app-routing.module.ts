@@ -3,12 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'miguel',
+    path: 'todos',
     loadChildren: () => import('./miki/miki.module').then( m =>m.MikiModule)
   },
   {
     path:'**',
-    redirectTo: 'miguel'
+    redirectTo: 'todos'
   }
 ];
 
