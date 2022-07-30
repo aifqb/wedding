@@ -3,12 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'birthday',
+    path: 'miguel',
     loadChildren: () => import('./mapas/mapas.module').then( m =>m.MapasModule)
   },
   {
     path:'**',
-    redirectTo: 'birthday'
+    redirectTo: 'miguel'
   }
 ];
 
